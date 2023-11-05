@@ -32,11 +32,8 @@ jobs:
       - name: npm list
         run: npm list
 
-      - name: pwd
-        run: pwd
-
-      # - name: list dir
-      #   run: ls /home/runner/work/presentations/presentations
+      - name: list dir
+        run: ls `pwd`
 
       - name: Build
         run: slidev build --base /presentations/
