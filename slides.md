@@ -1,5 +1,5 @@
 ---
-theme: academic
+theme: default
 class: text-center
 highlighter: shiki
 lineNumbers: false
